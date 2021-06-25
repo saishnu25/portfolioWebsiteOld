@@ -2,10 +2,6 @@ import React from 'react';
 
 const colors = ["black", "white", "yellow", "blue"]
 
-let someFunc = () => {
-
-}
-
 class Home extends React.Component{
     constructor(props){ 
         super(props);
