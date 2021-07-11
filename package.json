@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/saishnu25/portfolio_website.git",
-  "name": "website",
+  "homepage": "http://saishnu25.github.io/portfolio_website",
+  "name": "portfolio_website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
