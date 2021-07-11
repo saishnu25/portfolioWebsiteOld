@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/saishnu25/portfolio_website.git/static/css/main.2aa69d57.chunk.css",
+    "main.js": "/saishnu25/portfolio_website.git/static/js/main.b0461a20.chunk.js",
+    "main.js.map": "/saishnu25/portfolio_website.git/static/js/main.b0461a20.chunk.js.map",
+    "runtime-main.js": "/saishnu25/portfolio_website.git/static/js/runtime-main.b6a1f137.js",
+    "runtime-main.js.map": "/saishnu25/portfolio_website.git/static/js/runtime-main.b6a1f137.js.map",
+    "static/js/2.c67e0bdb.chunk.js": "/saishnu25/portfolio_website.git/static/js/2.c67e0bdb.chunk.js",
+    "static/js/2.c67e0bdb.chunk.js.map": "/saishnu25/portfolio_website.git/static/js/2.c67e0bdb.chunk.js.map",
+    "static/js/3.4dc6e02f.chunk.js": "/saishnu25/portfolio_website.git/static/js/3.4dc6e02f.chunk.js",
+    "static/js/3.4dc6e02f.chunk.js.map": "/saishnu25/portfolio_website.git/static/js/3.4dc6e02f.chunk.js.map",
+    "index.html": "/saishnu25/portfolio_website.git/index.html",
+    "static/css/main.2aa69d57.chunk.css.map": "/saishnu25/portfolio_website.git/static/css/main.2aa69d57.chunk.css.map",
+    "static/js/2.c67e0bdb.chunk.js.LICENSE.txt": "/saishnu25/portfolio_website.git/static/js/2.c67e0bdb.chunk.js.LICENSE.txt",
+    "static/media/Instagram.02c06885.png": "/saishnu25/portfolio_website.git/static/media/Instagram.02c06885.png",
+    "static/media/MenuSystem.502ff048.png": "/saishnu25/portfolio_website.git/static/media/MenuSystem.502ff048.png",
+    "static/media/NavbarPic.fb9cd7ec.jpg": "/saishnu25/portfolio_website.git/static/media/NavbarPic.fb9cd7ec.jpg",
+    "static/media/SpaceInvaders.8d3431b9.png": "/saishnu25/portfolio_website.git/static/media/SpaceInvaders.8d3431b9.png",
+    "static/media/Spotify.640056ea.png": "/saishnu25/portfolio_website.git/static/media/Spotify.640056ea.png",
+    "static/media/Twitter.43688379.png": "/saishnu25/portfolio_website.git/static/media/Twitter.43688379.png",
+    "static/media/WebsiteProfilePic.bb503c1d.jpeg": "/saishnu25/portfolio_website.git/static/media/WebsiteProfilePic.bb503c1d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6a1f137.js",
+    "static/js/2.c67e0bdb.chunk.js",
+    "static/css/main.2aa69d57.chunk.css",
+    "static/js/main.b0461a20.chunk.js"
+  ]
+}
