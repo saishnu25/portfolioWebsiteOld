@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import '../fadeincenter.css'
-import '../fadeinleft.css'
-import '../fadeinright.css'
 import spaceinvaders from '../images/SpaceInvaders.png'
 import menusystem from '../images/MenuSystem.png'
 import tesladealership from '../images/TeslaDealership.png'
 
+import '../fadeincenter.css'
+import '../fadeinleft.css'
+import '../fadeinright.css'
 
 //Styled Project
 export const StyledProject = styled.div`
@@ -16,7 +16,7 @@ export const StyledProject = styled.div`
     padding-left: 5%;
     padding-right: 5%;
     font-size: 150%;
-    font-family: roboto;
+    font-family: verdana;
     color: white;
     line-height: 1.5;
 
@@ -29,7 +29,7 @@ export const StyledDescriptionLeft = styled.div`
     padding-left: 5%;
     padding-right: 5%;
     font-size: 125%;
-    font-family: roboto;
+    font-family: montserrat;
     color: white;
     line-height: 2;
     align-items: center;
@@ -62,7 +62,7 @@ export const StyledDescriptionRight = styled.div`
     padding-left: 5%;
     padding-right: 10%;
     font-size: 125%;
-    font-family: roboto;
+    font-family: montserrat;
     color: white;
     line-height: 2;
     align-items: center;

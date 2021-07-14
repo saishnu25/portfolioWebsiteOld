@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+
 import '../fadeincenter.css'
 import '../fadeinleft.css'
 import '../fadeinright.css'
@@ -12,9 +13,9 @@ export const StyledUpdates = styled.div`
     padding-left: 5%;
     padding-right: 5%;
     font-size: 150%;
-    font-family: roboto;
+    font-family: verdana;
     color: white;
-    line-height: 1.5;
+    line-height: 2;
 
 `
 
@@ -24,8 +25,8 @@ export const StyledDescriptionLeft = styled.div`
     justify-content: left;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 130%;
-    font-family: roboto;
+    font-size: 115%;
+    font-family: montserrat;
     color: white;
     line-height: 2;
     align-items: center;
@@ -34,7 +35,7 @@ export const StyledDescriptionLeft = styled.div`
         color: lightblue;
         transition: 0.25s;
         &:hover{
-            background-color: yellow;
+            background-color: gray;
         }
     }
 
@@ -57,8 +58,8 @@ export const StyledDescriptionRight = styled.div`
     justify-content: right;
     padding-left: 5%;
     padding-right: 10%;
-    font-size: 130%;
-    font-family: roboto;
+    font-size: 115%;
+    font-family: montserrat;
     color: white;
     line-height: 2;
     align-items: center;
@@ -75,8 +76,7 @@ export const StyledDescriptionRight = styled.div`
         color: lightblue;
         transition: 0.25s;
         &:hover{
-            transform: color;
-            transform: scale(1.1);
+            transform: color;     
         }
     }
 
@@ -135,7 +135,7 @@ export default function Updates(){
             <StyledDescriptionLeft>
                 <p>
                     <br/>
-                    <h3><strong>Listen to some of my Spotify playlists here:</strong></h3>
+                    <h3><strong>Some of my Spotify playlists:</strong></h3>
                 </p>
             </StyledDescriptionLeft>
             
@@ -154,28 +154,35 @@ export default function Updates(){
             </StyledSpotify>
 
             <StyledDescriptionLeft>
-                <br/><br/><br/>
+                <br/><br/><br/><br/>
                <h3><strong>Projects in-progress (Tentatively):</strong></h3>
             </StyledDescriptionLeft>
 
             <StyledDescriptionLeft>
-                - Maze Game using Unity's Game Engine
+                - Maze Game using Unity
                 <br/>
                 - Chatbox Development
+                <br/>
+                - Zork Remake
                 <br/>
                 ...and more to come stay tuned!
             </StyledDescriptionLeft>
 
             <StyledDescriptionLeft>
                 <br/><br/><br/><br/>
-                <h4>
+                <h5>
                     **This website is still a work in progress and is subject to change**
-                </h4>
+                </h5>
             </StyledDescriptionLeft>
 
             <StyledDescriptionLeft>
                 <h5>
-                    Version: 1.0 (July 12th, 2021)
+                    Version: 1.1 
+                    <br/>
+                    (Updated: July 14th, 2021)
+                    <br/>
+                    (Deployed: July 12th, 2021)
+
                 </h5>
             </StyledDescriptionLeft>
 

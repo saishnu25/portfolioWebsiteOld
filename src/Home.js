@@ -1,8 +1,9 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import About from './components/About';
-import Projects from './components/Projects';
-import Updates from './components/Updates';
+import Navbar from './components/Navbar'; //Navbar Function
+import Welcome from './components/Welcome'; //Welcome Function
+import About from './components/About'; //About Function
+import Projects from './components/Projects'; //Projects Function
+import Updates from './components/Updates'; //Updates Function
 
 class Home extends React.Component{
     constructor(props){ 
@@ -17,6 +18,7 @@ class Home extends React.Component{
         return(
             <div>
               <Navbar/>
+              <Welcome/>
               <About/>
               <Projects/>
               <Updates/>
