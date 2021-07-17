@@ -3,10 +3,13 @@ import styled from "styled-components";
 import spaceinvaders from '../images/SpaceInvaders.png'
 import menusystem from '../images/MenuSystem.png'
 import tesladealership from '../images/TeslaDealership.png'
+import walkabout from '../images/WalkAbout.png'
 
 import '../fadeincenter.css'
 import '../fadeinleft.css'
 import '../fadeinright.css'
+
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
 
 //Styled Project
 export const StyledProject = styled.div`
@@ -102,7 +105,12 @@ const TeslaDealership = [
     "A couple of my friends and I decided to create a Tesla Dealership program using Java for an assignment.",
     " The user would be able to select the various list of Tesla Models offered as of 2020 and would also be able to receive a receipt of their purchase.",
     " We have used the inheritance feature that is avaiable in Object Oriented Programming Languages like Java, hence there are a number of Java files spilt and are all called into the TeslaMain file.",
-    <strong> Note: This project is intended for assignment purposes, none of us are affiliated with Tesla in any way.</strong>
+    " Note: This project is intended for assignment purposes, none of us are affiliated with Tesla in any way."
+]
+
+const WalkAbout = [
+    "This is a small and short game that I created that is inspired by the famous text-based game, Zork.",
+    " The game is really straightforward where the user would need to enter the numbers either 1 or 2 to pick their choices."
 ]
 
 //Project Function
@@ -120,7 +128,7 @@ export default function Project(){
 
             {/*SPACE INVADERS*/}
 
-            <ImagesRight>
+            <ImagesRight className = "fade-in-right">
                 <p>
                     <br/>
                      <img style = {{marginRight: "5%"}} src = {spaceinvaders} alt = "SpaceInvaders" width = "430" height = "330"/>
@@ -128,21 +136,21 @@ export default function Project(){
                
             </ImagesRight>
 
-            <StyledDescriptionLeft>
+            <StyledDescriptionLeft className = "fade-in-left">
                 <br/><br/><br/>
                 <h3>
                     <a style = {{textDecoration: 'none' }} href = "https://scratch.mit.edu/projects/504725118/"><strong>Space Invaders</strong></a>
                 </h3>
             </StyledDescriptionLeft>
 
-            <StyledDescriptionLeft>
+            <StyledDescriptionLeft className = "fade-in-left">
                 <p>{SpaceInvaders}</p>
             </StyledDescriptionLeft>
 
 
             {/*MENU SYSTEM*/}
 
-            <ImagesLeft>
+            <ImagesLeft className = "fade-in-left">
                 <p>
                     <br/><br/><br/><br/><br/>
                     <img style = {{marginLeft: "5%"}} src = {menusystem} alt = "MenuSystem" width = "640" height = "390"/>
@@ -150,40 +158,60 @@ export default function Project(){
                 
             </ImagesLeft>
 
-            <StyledDescriptionRight>
+            <StyledDescriptionRight className = "fade-in-right">
                 <br/><br/><br/><br/><br/>
                 <h3>
                     <a style = {{textDecoration: 'none' }} href = "https://github.com/saishnu25/Menu_System_Project"><strong>Menu System</strong></a>
                 </h3>
             </StyledDescriptionRight>
 
-            <StyledDescriptionRight>
+            <StyledDescriptionRight className = "fade-in-left">
                 {MenuSystem}
             </StyledDescriptionRight>
 
 
             {/*TESLA DEALERSHIP*/}
 
-            <ImagesRight>
+            <ImagesRight className = "fade-in-right">
                 <p>
                     <br/><br/><br/><br/><br/>
-                    <img style = {{marginLeft: "5%"}} src = {tesladealership} alt = "MenuSystem" width = "500" height = "200"/>
+                    <img style = {{marginLeft: "5%"}} src = {tesladealership} alt = "TeslaDealership" width = "500" height = "200"/>
                 </p>
                 
             </ImagesRight>
 
-            <StyledDescriptionLeft>
+            <StyledDescriptionLeft className = "fade-in-left">
                 <br/><br/><br/>
                 <h3>
                     <a style = {{textDecoration: 'none' }} href = "https://github.com/saishnu25/TeslaDealership_Project"><strong>Tesla Dealership (Unofficial)</strong></a>
                 </h3>
             </StyledDescriptionLeft>
             
-            <StyledDescriptionLeft>
+            <StyledDescriptionLeft className = "fade-in-left">
                 <p>{TeslaDealership}</p>
             </StyledDescriptionLeft>
 
-            <br/><br/><br/><br/>
+            {/*WALKABOUT*/}
+
+            <ImagesLeft className = "fade-in-left">
+                <p>
+                    <br/><br/><br/><br/>
+                    <img style = {{marginLeft: "5%"}} src = {walkabout} alt = "WalkAbout" width = "540" height = "250"/>
+                </p>
+            </ImagesLeft>
+
+            <StyledDescriptionRight className = "fade-in-right">
+                <br/><br/><br/>
+                <h3>
+                    <a style = {{textDecoration: 'none' }} href = "https://github.com/saishnu25/WalkAbout"><strong>WalkAbout</strong></a>
+                </h3>
+            </StyledDescriptionRight>
+
+            <StyledDescriptionRight className = "fade-in-left">
+                <p>{WalkAbout}</p>
+            </StyledDescriptionRight>
+
+            <br/><br/><br/><br/><br/><br/>
 
         </div>
 

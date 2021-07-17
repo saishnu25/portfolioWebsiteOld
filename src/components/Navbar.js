@@ -9,9 +9,13 @@ import spotify from '../images/Spotify.png' //Spotify Icon
 import youtube from '../images/YouTube.png' //YouTube Icon
 import navbarpic from '../images/NavbarPic.jpg' //Navbar Picture
 
+import { NavbarButton } from "./external-components";
+
 import '../fadeincenter.css'
 import '../fadeinleft.css'
 import '../fadeinright.css'
+
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
 
 export const StyledDiv = styled.div`
     display: flex;
@@ -28,9 +32,10 @@ export const StyledDiv = styled.div`
     ul{
         display: grid;
         grid-template-columns: repeat(${(props) => props.numberLinks}, auto);
-        grid-gap: 2%;
+        grid-gap: 1.5%;
         justify-content: end;
-        width: 80vw;
+        width: 83vw;
+
     }
 
     a{
@@ -43,59 +48,43 @@ export const StyledDiv = styled.div`
 
 `
 
+const ButtonLinks = [{name: "Welcome"}, {name: "About"}, {name: "Projects"}, {name: "Updates"}]
+
 export default function Navbar(){
 
     return(
         <div>
 
-            <StyledDiv numberLinks = {7} className = "fade-in-center">
+            <StyledDiv numberLinks = {6} className = "fade-in-center">
                 <img alt ="Navbar Picture" src = {navbarpic} width = "30" height = "30"></img>
                 &nbsp; &nbsp;
-                <h3>saishnu25</h3>                
+                <h4>saishnu25</h4>                
 
                 <ul> 
+                    {/*{ButtonLinks.map((item) => <NavbarButton style = {{textTransform: 'none'}}>{item.name}</NavbarButton>)}*/}
+                        
+                        <a href = "https://github.com/saishnu25">
+                            <img alt = "Github" src = {github} width = "20" height = "20"></img></a>
 
-                    {/*
-                    <a style={{ textDecoration: 'none' }} href=''>
-                        Home
-                    </a>
+                        <a href = "https://www.linkedin.com/in/saishnu25/">
+                            <img alt = "LinkedIn" src = {linkedin} width = "20" height = "20"></img></a>
 
-                    <a style={{ textDecoration: 'none' }} href=''>
-                        Projects
-                    </a>
+                        <a href = "https://www.instagram.com/saishnu25/">
+                            <img alt = "Instagram" src = {instagram} width = "20" height = "20"></img></a>
 
-                    <a style={{ textDecoration: 'none' }} href=''>
-                        Updates
-                    </a>
+                        <a href = "https://twitter.com/saishnu25">
+                            <img alt = "Twitter" src = {twitter} width = "20" height = "20"></img></a>
 
-                    <a style={{ textDecoration: 'none' }} href=''>
-                        About
-                    </a>
-                    */}
+                        <a href = "https://open.spotify.com/user/12172915896">
+                            <img alt = "Spotify" src = {spotify} width = "20" height = "20"></img></a>
 
-                    <br/>
-                    <a href = "https://github.com/saishnu25">
-                        <img alt = "Github" src = {github} width = "20" height = "20"></img></a>
-
-                    <a href = "https://www.linkedin.com/in/saishnu25/">
-                        <img alt = "LinkedIn" src = {linkedin} width = "20" height = "20"></img></a>
-
-                    <a href = "https://www.instagram.com/saishnu25/">
-                        <img alt = "Instagram" src = {instagram} width = "20" height = "20"></img></a>
-
-                    <a href = "https://twitter.com/saishnu25">
-                        <img alt = "Twitter" src = {twitter} width = "20" height = "20"></img></a>
-
-                    <a href = "https://open.spotify.com/user/12172915896">
-                        <img alt = "Spotify" src = {spotify} width = "20" height = "20"></img></a>
-
-                    <a href= "https://www.youtube.com/user/GhostProtocol2503">
-                        <img alt = "YouTube" src = {youtube} width = "20" height = "20"></img></a>
-
+                        <a href= "https://www.youtube.com/user/GhostProtocol2503">
+                            <img alt = "YouTube" src = {youtube} width = "20" height = "20"></img></a>
                 
                 </ul>
 
             </StyledDiv>
+
 
         </div>
     )

@@ -5,6 +5,8 @@ import About from './components/About'; //About Function
 import Projects from './components/Projects'; //Projects Function
 import Updates from './components/Updates'; //Updates Function
 
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
+
 class Home extends React.Component{
     constructor(props){ 
         super(props);

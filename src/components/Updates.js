@@ -5,6 +5,8 @@ import '../fadeincenter.css'
 import '../fadeinleft.css'
 import '../fadeinright.css'
 
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
+
 //Styled Update
 export const StyledUpdates = styled.div`
     display: flex;
@@ -132,14 +134,14 @@ export default function Updates(){
             </h2>
             </StyledUpdates>
 
-            <StyledDescriptionLeft>
+            <StyledDescriptionLeft className = "fade-in-left">
                 <p>
                     <br/>
                     <h3><strong>Some of my Spotify playlists:</strong></h3>
                 </p>
             </StyledDescriptionLeft>
             
-            <StyledSpotify numberLinks = {5}>
+            <StyledSpotify numberLinks = {5} >
                 <ul>
                 <a><iframe src="https://open.spotify.com/embed/playlist/1w5Otc9KAYcDjWBivyKEoK?theme=0" width="110%" height="300" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></a>
 
@@ -153,40 +155,33 @@ export default function Updates(){
                 </ul>
             </StyledSpotify>
 
-            <StyledDescriptionLeft>
+            <StyledDescriptionLeft className = "fade-in-left">
                 <br/><br/><br/><br/>
-               <h3><strong>Projects in-progress (Tentatively):</strong></h3>
+               <h3><strong>Current Projects (Tentatively):</strong></h3>
             </StyledDescriptionLeft>
 
-            <StyledDescriptionLeft>
+            <StyledDescriptionLeft className = "fade-in-left">
                 - Maze Game using Unity
                 <br/>
-                - Chatbox Development
-                <br/>
-                - Zork Remake
-                <br/>
-                ...and more to come stay tuned!
+                - Discord Bot
+                <br/><br/><br/><br/><br/>
             </StyledDescriptionLeft>
 
-            <StyledDescriptionLeft>
-                <br/><br/><br/><br/>
+            <StyledDescriptionLeft>   
                 <h5>
-                    **This website is still a work in progress and is subject to change**
-                </h5>
-            </StyledDescriptionLeft>
-
-            <StyledDescriptionLeft>
-                <h5>
-                    Version: 1.1 
+                    Version: 1.2 
                     <br/>
-                    (Updated: July 14th, 2021)
+                    (Updated: July 18th, 2021)
                     <br/>
                     (Deployed: July 12th, 2021)
-
+                    <br/>
+                    <br/>
+                    **Still a work in-progress, subject to change**
                 </h5>
             </StyledDescriptionLeft>
 
-            <br/><br/><br/><br/>
+
+            <br/>
         </div>
 
     

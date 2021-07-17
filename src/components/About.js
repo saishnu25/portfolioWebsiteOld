@@ -6,6 +6,8 @@ import '../fadeincenter.css'
 import '../fadeinleft.css'
 import '../fadeinright.css'
 
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
+
 //Styled About
 export const StyledAbout = styled.div`
     display: flex;

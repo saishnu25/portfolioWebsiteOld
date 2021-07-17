@@ -5,6 +5,8 @@ import '../fadeincenter.css'
 import '../fadeinleft.css'
 import '../fadeinright.css'
 
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
+
 //Styled Welcome
 export const StyledWelcome = styled.div`
     display: flex;
@@ -57,12 +59,11 @@ export default function Welcome(){
 
             <StyledDescription className = "fade-in-center">
                 <br/>
-                I hope that I can accomplish my goal of creating this website and that you would stick around for the ride.
                 For any future updates, be sure to check this page out!
                 
             </StyledDescription>
             
-            <br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/>
 
         </div>
     )
