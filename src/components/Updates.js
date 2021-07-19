@@ -163,7 +163,7 @@ export default function Updates(){
             <StyledDescriptionLeft className = "fade-in-left">
                 - Maze Game using Unity
                 <br/>
-                - Discord Bot
+                - Face Mask Detector
                 <br/><br/><br/><br/><br/>
             </StyledDescriptionLeft>
 

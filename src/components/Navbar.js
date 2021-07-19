@@ -61,7 +61,7 @@ export default function Navbar(){
                 <h4>saishnu25</h4>                
 
                 <ul> 
-                    {/*{ButtonLinks.map((item) => <NavbarButton style = {{textTransform: 'none'}}>{item.name}</NavbarButton>)}*/}
+                    {/*{ButtonLinks.map((item) => <NavbarButton  style={{textTransform: 'none'}} >{item.name}</NavbarButton>)}*/}
                         
                         <a href = "https://github.com/saishnu25">
                             <img alt = "Github" src = {github} width = "20" height = "20"></img></a>
