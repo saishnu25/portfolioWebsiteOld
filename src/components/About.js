@@ -6,8 +6,6 @@ import '../fadeincenter.css'
 import '../fadeinleft.css'
 import '../fadeinright.css'
 
-<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
-
 //Styled About
 export const StyledAbout = styled.div`
     display: flex;
@@ -101,7 +99,7 @@ export default function About(){
                 Nonetheless, I hope you would enjoy any forthcoming projects and updates to this website as it will be ever-evolving. 
                 <br/><br/>
                 
-                From Saishnu
+                - Saishnu
             </StyledDescription>
 
             <br/><br/><br/><br/>

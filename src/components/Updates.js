@@ -5,8 +5,6 @@ import '../fadeincenter.css'
 import '../fadeinleft.css'
 import '../fadeinright.css'
 
-<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
-
 //Styled Update
 export const StyledUpdates = styled.div`
     display: flex;
@@ -166,22 +164,9 @@ export default function Updates(){
                 - Face Mask Detector
                 <br/><br/><br/><br/><br/>
             </StyledDescriptionLeft>
-
-            <StyledDescriptionLeft>   
-                <h5>
-                    Version: 1.2 
-                    <br/>
-                    (Updated: July 18th, 2021)
-                    <br/>
-                    (Deployed: July 12th, 2021)
-                    <br/>
-                    <br/>
-                    **Still a work in-progress, subject to change**
-                </h5>
-            </StyledDescriptionLeft>
-
-
+            
             <br/>
+
         </div>
 
     

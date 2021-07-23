@@ -4,8 +4,8 @@ import Welcome from './components/Welcome'; //Welcome Function
 import About from './components/About'; //About Function
 import Projects from './components/Projects'; //Projects Function
 import Updates from './components/Updates'; //Updates Function
-
-<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
+import Version from './components/Version';
+import NavbarBot from './components/NavbarBot';
 
 class Home extends React.Component{
     constructor(props){ 
@@ -24,6 +24,8 @@ class Home extends React.Component{
               <About/>
               <Projects/>
               <Updates/>
+              <Version/>
+              <NavbarBot/>
             </div>
         )
     }
@@ -31,3 +33,8 @@ class Home extends React.Component{
 }
 
 export default Home;
+
+{/*
+   *(Deployed: July 12th, 2021) 
+   *(Updated: July 18th, 2021)
+*/}

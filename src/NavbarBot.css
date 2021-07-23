@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #181818;
+  background-image: linear-gradient(160deg, #181818 70%, #13327C 100%);
+  overflow: hidden;
+  position: flex;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: center;
+  display: block;
+  color: white;
+  font-size: 100%;
+  font-family: montserrat;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+

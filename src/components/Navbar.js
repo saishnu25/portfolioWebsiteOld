@@ -1,29 +1,40 @@
-import React from "react";
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 import styled from "styled-components";
-
-import github from '../images/Github.jpg' //Github Icon
-import linkedin from '../images/LinkedIn.png' //LinkedIn Icon
-import instagram from '../images/Instagram.png' //Instagram Icon
-import twitter from '../images/Twitter.png' //Twitter Icon
-import spotify from '../images/Spotify.png' //Spotify Icon
-import youtube from '../images/YouTube.png' //YouTube Icon
-import navbarpic from '../images/NavbarPic.jpg' //Navbar Picture
-
 import { NavbarButton } from "./external-components";
+
+import github from '../images/Github.jpg'; //Github Icon
+import instagram from '../images/Instagram.png'; //Instagram Icon
+import twitter from '../images/Twitter.png'; //Twitter Icon
+import linkedin from '../images/LinkedIn.png'; //LinkedIn Icon
+import youtube from '../images/YouTube.png'; //YouTube Icon
+import spotify from '../images/Spotify.png' //Spotify Icon
+import navbarpic from '../images/NavbarPic.jpg' //Navbar Picture
 
 import '../fadeincenter.css'
 import '../fadeinleft.css'
 import '../fadeinright.css'
 
-<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 2,
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+  },
+  title: {
+    flexGrow: 2,
+  },
+}));
 
 export const StyledDiv = styled.div`
+
     display: flex;
     background-color: #181818;
     background-image: linear-gradient(-160deg, #181818 70%, #13327C 100%);
     display: flex;
     justify-content: left;
-    padding-left: 2.5%;
+    padding-left: 2%;
     font-size: 100%;
     font-family: montserrat;
     color: white;
@@ -35,6 +46,7 @@ export const StyledDiv = styled.div`
         grid-gap: 1.5%;
         justify-content: end;
         width: 83vw;
+        height: auto;
 
     }
 
@@ -42,7 +54,7 @@ export const StyledDiv = styled.div`
         color: inherit;
         transition: 0.25s;
         &:hover{
-            transform: scale(1.3);
+            transform: scale(1.35);
         }
     }
 
@@ -50,22 +62,21 @@ export const StyledDiv = styled.div`
 
 const ButtonLinks = [{name: "Welcome"}, {name: "About"}, {name: "Projects"}, {name: "Updates"}]
 
-export default function Navbar(){
+export default function Navbar() {
 
-    return(
-        <div>
-
+  return (
+    <div>
             <StyledDiv numberLinks = {6} className = "fade-in-center">
                 <img alt ="Navbar Picture" src = {navbarpic} width = "30" height = "30"></img>
                 &nbsp; &nbsp;
-                <h4>saishnu25</h4>                
-
+                <h4>saishnu25</h4>        
+        
                 <ul> 
-                    {/*{ButtonLinks.map((item) => <NavbarButton  style={{textTransform: 'none'}} >{item.name}</NavbarButton>)}*/}
+                        {/*{ButtonLinks.map((item) => <NavbarButton  style = {{textTransform: 'none'}} size = "medium">{item.name}</NavbarButton>)}*/}
                         
                         <a href = "https://github.com/saishnu25">
                             <img alt = "Github" src = {github} width = "20" height = "20"></img></a>
-
+        
                         <a href = "https://www.linkedin.com/in/saishnu25/">
                             <img alt = "LinkedIn" src = {linkedin} width = "20" height = "20"></img></a>
 
@@ -85,7 +96,6 @@ export default function Navbar(){
 
             </StyledDiv>
 
-
         </div>
-    )
+  );
 }
