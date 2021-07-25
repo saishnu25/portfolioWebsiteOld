@@ -10,7 +10,7 @@ import '../fadeinright.css'
 export const StyledAbout = styled.div`
     display: flex;
     justify-content: center;
-    background-image: radial-gradient(circle, #181818 65%, #2063DC 100%);
+    background-image: radial-gradient(circle, #181818 25%, #13327C 100%);
     padding-left: 5%;
     padding-right: 5%;
     font-size: 150%;
@@ -27,7 +27,7 @@ export const StyledDescription = styled.div`
     padding-left: 10%;
     padding-right: 10%;
     font-size: 115%;
-    font-family: montserrat;
+    font-family: verdana;
     color: white;
     line-height: 2;
     align-items: center;
@@ -49,9 +49,9 @@ export default function About(){
 
         <div>
             <StyledAbout className = "fade-in-left">
-                <h2>
+                <h1>
                     About
-                </h2>
+                </h1>
             </StyledAbout>
 
             <br/><br/>
@@ -62,7 +62,7 @@ export default function About(){
 
             <br/><br/>
             <StyledDescription className = "fade-in-center">
-                My name is Saishnu and I'm currently 20 years old. 
+                My name is Saishnu and currently I'm 20 years old. 
                 I'm a 1st-year transfer student at California State University, Fresno from Kuala Lumpur, Malaysia. 
                 I am currently aiming to complete my Bachelor's Degree (BSc) in the field of Computer Science in the United States. 
                 This is the first proper webpage that I have made from scratch and would be constantly improving and updating it. 

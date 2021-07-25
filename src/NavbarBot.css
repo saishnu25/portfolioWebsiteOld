@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #181818;
+  background-color: transparent;
   background-image: linear-gradient(160deg, #181818 70%, #13327C 100%);
   overflow: hidden;
   position: flex;
@@ -12,7 +12,7 @@
   display: block;
   color: white;
   font-size: 100%;
-  font-family: montserrat;
+  font-family: verdana;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

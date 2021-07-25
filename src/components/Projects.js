@@ -13,7 +13,7 @@ import '../fadeinright.css'
 export const StyledProject = styled.div`
     display: flex;
     justify-content: center;
-    background-image: radial-gradient(circle, #181818 65%, #2063DC 100%);
+    background-image: radial-gradient(circle, #181818 25%, #13327C 100%);
     padding-left: 5%;
     padding-right: 5%;
     font-size: 150%;
@@ -30,7 +30,7 @@ export const StyledDescriptionLeft = styled.div`
     padding-left: 5%;
     padding-right: 5%;
     font-size: 125%;
-    font-family: montserrat;
+    font-family: verdana;
     color: white;
     line-height: 2;
     align-items: center;
@@ -63,7 +63,7 @@ export const StyledDescriptionRight = styled.div`
     padding-left: 5%;
     padding-right: 10%;
     font-size: 125%;
-    font-family: montserrat;
+    font-family: verdana;
     color: white;
     line-height: 2;
     align-items: center;
@@ -117,9 +117,9 @@ export default function Project(){
     return(
         <div>
             <StyledProject className = "fade-in-center">
-                <h2>
+                <h1>
                     Projects
-                </h2>
+                </h1>
 
                 <br/><br/>
             </StyledProject>
@@ -135,7 +135,7 @@ export default function Project(){
             </ImagesRight>
 
             <StyledDescriptionLeft className = "fade-in-left">
-                <br/><br/><br/>
+                <br/><br/><br/><br/>
                 <h3>
                     <a style = {{textDecoration: 'none' }} href = "https://scratch.mit.edu/projects/504725118/"><strong>Space Invaders</strong></a>
                 </h3>

@@ -1,7 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import styled from "styled-components";
-import { NavbarButton } from "./external-components";
 
 import github from '../images/Github.jpg'; //Github Icon
 import instagram from '../images/Instagram.png'; //Instagram Icon
@@ -15,18 +13,6 @@ import '../fadeincenter.css'
 import '../fadeinleft.css'
 import '../fadeinright.css'
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 2,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 2,
-  },
-}));
-
 export const StyledDiv = styled.div`
 
     display: flex;
@@ -36,7 +22,7 @@ export const StyledDiv = styled.div`
     justify-content: left;
     padding-left: 2%;
     font-size: 100%;
-    font-family: montserrat;
+    font-family: verdana;
     color: white;
     align-items: center;
 

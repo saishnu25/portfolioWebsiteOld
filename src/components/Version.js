@@ -12,7 +12,7 @@ export const StyledDescriptionRight = styled.div`
     padding-left: 77%;
     padding-right: 0%;
     font-size: 115%;
-    font-family: montserrat;
+    font-family: verdana;
     color: white;
     line-height: 2;
     align-items: center;
