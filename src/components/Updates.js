@@ -159,7 +159,7 @@ export default function Updates(){
             </StyledDescriptionLeft>
 
             <StyledDescriptionLeft className = "fade-in-left">
-                - Maze Game using Unity
+                - Maze Game
                 <br/>
                 - Face Mask Detector
                 <br/><br/><br/><br/><br/>

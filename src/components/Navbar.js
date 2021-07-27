@@ -52,14 +52,14 @@ export default function Navbar() {
 
   return (
     <div>
-            <StyledDiv numberLinks = {6} className = "fade-in-center">
+            <StyledDiv numberLinks = {7} className = "fade-in-center">
                 <img alt ="Navbar Picture" src = {navbarpic} width = "30" height = "30"></img>
                 &nbsp; &nbsp;
                 <h4>saishnu25</h4>        
         
                 <ul> 
                         {/*{ButtonLinks.map((item) => <NavbarButton  style = {{textTransform: 'none'}} size = "medium">{item.name}</NavbarButton>)}*/}
-                        
+
                         <a href = "https://github.com/saishnu25">
                             <img alt = "Github" src = {github} width = "20" height = "20"></img></a>
         
