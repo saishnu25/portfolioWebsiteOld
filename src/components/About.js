@@ -58,6 +58,7 @@ export default function About(){
             <ProfilePic className = "fade-in-center">
                  
                 <img src = {profile} alt = "Profile" width = "300" height = "400"/>
+
             </ProfilePic>
 
             <br/><br/>

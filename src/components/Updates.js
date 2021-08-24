@@ -159,9 +159,8 @@ export default function Updates(){
             </StyledDescriptionLeft>
 
             <StyledDescriptionLeft className = "fade-in-left">
-                - Maze Game
+                Coming soon stay tuned...
                 <br/>
-                - Face Mask Detector
                 <br/><br/><br/><br/><br/>
             </StyledDescriptionLeft>
             
