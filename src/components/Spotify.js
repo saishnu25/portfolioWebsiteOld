@@ -128,22 +128,40 @@ export default function Updates(){
         <div>
             <StyledUpdates className = "fade-in-center">
             <h1>
-                Updates
+                Spotify
             </h1>
             </StyledUpdates>
 
             <StyledDescriptionLeft className = "fade-in-left">
-                <br/><br/><br/><br/>
-               <h3><strong>Current Projects:</strong></h3>
+                <p>
+                    <br/>
+                    <h3><strong>Sneak peak to my playlists:</strong></h3>
+                </p>
+
             </StyledDescriptionLeft>
 
-            <StyledDescriptionLeft className = "fade-in-left">
-                Check back soon :)
-                <br/>
-                <br/><br/><br/><br/><br/>
+            <StyledDescriptionLeft>
+                <p>
+                    These are some of the playlists that I have made with curated songs that I listen to on a daily basis and songs that keep me focused and motivated throughout the days, weeks, and months.
+                    If you would like to explore more of what I listen to, hit the link above to check out my Spotify profile. 
+                </p>
             </StyledDescriptionLeft>
             
-            <br/>
+            <StyledSpotify numberLinks = {5} >
+                <ul>
+                <a><iframe src="https://open.spotify.com/embed/playlist/1w5Otc9KAYcDjWBivyKEoK?theme=0" width="110%" height="300" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></a>
+
+                <a><iframe src="https://open.spotify.com/embed/playlist/332L9mlUxdxUKpi31iv0R9" width="110%" height="300" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></a>
+
+                <a><iframe src="https://open.spotify.com/embed/playlist/7kojP4fnG42vJcvMqAPgyO?theme=0" width="110%" height="300" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></a>
+                
+                <a><iframe src="https://open.spotify.com/embed/playlist/6C01VgquarayYLjpqrjKbX" width="110%" height="300" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></a>
+
+                <a><iframe src="https://open.spotify.com/embed/playlist/0pwlwVGN9DQv86x2plgx4r?theme=0" width="110%" height="300" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></a>
+                </ul>
+            </StyledSpotify>
+            
+            <br/><br/><br/><br/>
 
         </div>
 

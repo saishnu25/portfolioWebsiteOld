@@ -19,7 +19,7 @@ export const StyledProject = styled.div`
     font-size: 150%;
     font-family: verdana;
     color: white;
-    line-height: 1.5;
+    line-height: 2.5;
 
 `
 
@@ -32,7 +32,7 @@ export const StyledDescriptionLeft = styled.div`
     font-size: 125%;
     font-family: verdana;
     color: white;
-    line-height: 2;
+    line-height: 2.5;
     align-items: center;
 
     a{
@@ -65,7 +65,7 @@ export const StyledDescriptionRight = styled.div`
     font-size: 125%;
     font-family: verdana;
     color: white;
-    line-height: 2;
+    line-height: 2.5;
     align-items: center;
 
     a{
@@ -129,7 +129,7 @@ export default function Project(){
             <ImagesRight className = "fade-in-right">
                 <p>
                     <br/>
-                     <img style = {{marginRight: "5%"}} src = {spaceinvaders} alt = "SpaceInvaders" width = "430" height = "330"/>
+                     <img style = {{marginRight: "5%"}} src = {spaceinvaders} alt = "SpaceInvaders" width = "500" height = "370"/>
                 </p>
                
             </ImagesRight>
@@ -151,17 +151,17 @@ export default function Project(){
             <ImagesLeft className = "fade-in-left">
                 <p>
                     <br/><br/><br/><br/><br/>
-                    <img style = {{marginLeft: "5%"}} src = {menusystem} alt = "MenuSystem" width = "640" height = "390"/>
+                    <img style = {{marginLeft: "5%"}} src = {menusystem} alt = "MenuSystem" width = "740" height = "490"/>
                 </p>
                 
             </ImagesLeft>
 
-            <StyledDescriptionRight className = "fade-in-right">
+            <StyledDescriptionLeft className = "fade-in-right">
                 <br/><br/><br/><br/><br/>
                 <h3>
                     <a style = {{textDecoration: 'none' }} href = "https://github.com/saishnu25/Menu_System_Project"><strong>Menu System</strong></a>
                 </h3>
-            </StyledDescriptionRight>
+            </StyledDescriptionLeft>
 
             <StyledDescriptionRight className = "fade-in-left">
                 {MenuSystem}
@@ -172,16 +172,16 @@ export default function Project(){
 
             <ImagesRight className = "fade-in-right">
                 <p>
-                    <br/><br/><br/><br/><br/>
-                    <img style = {{marginLeft: "5%"}} src = {tesladealership} alt = "TeslaDealership" width = "500" height = "200"/>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    <img style = {{marginLeft: "5%"}} src = {tesladealership} alt = "TeslaDealership" width = "550" height = "250"/>
                 </p>
                 
             </ImagesRight>
 
             <StyledDescriptionLeft className = "fade-in-left">
-                <br/><br/><br/>
+                <br/><br/><br/><br/><br/>
                 <h3>
-                    <a style = {{textDecoration: 'none' }} href = "https://github.com/saishnu25/TeslaDealership_Project"><strong>Tesla Dealership (Unofficial)</strong></a>
+                    <a style = {{textDecoration: 'none' }} href = "https://github.com/saishnu25/TeslaDealership_Project"><strong>Unofficial Tesla Dealership</strong></a>
                 </h3>
             </StyledDescriptionLeft>
             
@@ -194,16 +194,16 @@ export default function Project(){
             <ImagesLeft className = "fade-in-left">
                 <p>
                     <br/><br/><br/><br/>
-                    <img style = {{marginLeft: "5%"}} src = {walkabout} alt = "WalkAbout" width = "540" height = "250"/>
+                    <img style = {{marginLeft: "5%"}} src = {walkabout} alt = "WalkAbout" width = "650" height = "250"/>
                 </p>
             </ImagesLeft>
 
-            <StyledDescriptionRight className = "fade-in-right">
-                <br/><br/><br/>
+            <StyledDescriptionLeft className = "fade-in-right">
+                <br/><br/><br/><br/>
                 <h3>
                     <a style = {{textDecoration: 'none' }} href = "https://github.com/saishnu25/WalkAbout"><strong>WalkAbout</strong></a>
                 </h3>
-            </StyledDescriptionRight>
+            </StyledDescriptionLeft>
 
             <StyledDescriptionRight className = "fade-in-left">
                 <p>{WalkAbout}</p>
