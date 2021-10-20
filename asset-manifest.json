@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio_website/static/css/main.3d39b58d.chunk.css",
-    "main.js": "/portfolio_website/static/js/main.47c7c964.chunk.js",
-    "main.js.map": "/portfolio_website/static/js/main.47c7c964.chunk.js.map",
+    "main.js": "/portfolio_website/static/js/main.bace6b7d.chunk.js",
+    "main.js.map": "/portfolio_website/static/js/main.bace6b7d.chunk.js.map",
     "runtime-main.js": "/portfolio_website/static/js/runtime-main.ef9f645a.js",
     "runtime-main.js.map": "/portfolio_website/static/js/runtime-main.ef9f645a.js.map",
     "static/js/2.a48a0bf4.chunk.js": "/portfolio_website/static/js/2.a48a0bf4.chunk.js",
@@ -16,8 +16,14 @@
     "static/media/MenuSystem.502ff048.png": "/portfolio_website/static/media/MenuSystem.502ff048.png",
     "static/media/NavbarPic.fb9cd7ec.jpg": "/portfolio_website/static/media/NavbarPic.fb9cd7ec.jpg",
     "static/media/ProfilePic.5af32925.jpg": "/portfolio_website/static/media/ProfilePic.5af32925.jpg",
+    "static/media/ProfilePic2.aae8f30b.JPG": "/portfolio_website/static/media/ProfilePic2.aae8f30b.JPG",
+    "static/media/ProfilePic3.ac62bcaa.PNG": "/portfolio_website/static/media/ProfilePic3.ac62bcaa.PNG",
     "static/media/SpaceInvaders.8d3431b9.png": "/portfolio_website/static/media/SpaceInvaders.8d3431b9.png",
     "static/media/Spotify.640056ea.png": "/portfolio_website/static/media/Spotify.640056ea.png",
+    "static/media/TheWeeknd.8ef4ffed.jpg": "/portfolio_website/static/media/TheWeeknd.8ef4ffed.jpg",
+    "static/media/TheWeeknd2.9992df4e.jpg": "/portfolio_website/static/media/TheWeeknd2.9992df4e.jpg",
+    "static/media/TheWeeknd3.b9084d90.jpg": "/portfolio_website/static/media/TheWeeknd3.b9084d90.jpg",
+    "static/media/TheWeeknd4.988d235f.jpg": "/portfolio_website/static/media/TheWeeknd4.988d235f.jpg",
     "static/media/Twitter.43688379.png": "/portfolio_website/static/media/Twitter.43688379.png",
     "static/media/YouTube.add1b79a.png": "/portfolio_website/static/media/YouTube.add1b79a.png"
   },
@@ -25,6 +31,6 @@
     "static/js/runtime-main.ef9f645a.js",
     "static/js/2.a48a0bf4.chunk.js",
     "static/css/main.3d39b58d.chunk.css",
-    "static/js/main.47c7c964.chunk.js"
+    "static/js/main.bace6b7d.chunk.js"
   ]
 }
