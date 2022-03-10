@@ -9,7 +9,7 @@ import '../fadeinright.css'
 export const StyledUpdates = styled.div`
     display: flex;
     justify-content: center;
-    background-image: radial-gradient(circle, #181818 25%, #13327C 100%);
+    background-image: radial-gradient(circle, #181818 50%, #13327C 100%);
     padding-left: 5%;
     padding-right: 5%;
     font-size: 150%;
@@ -133,14 +133,14 @@ export default function Updates(){
             </StyledUpdates>
 
             <StyledDescriptionLeft className = "fade-in-left">
-                <br/><br/><br/><br/>
-               <h3><strong>Current Projects:</strong></h3>
+                <br/>
+               <h3><strong>Projects:</strong></h3>
             </StyledDescriptionLeft>
 
             <StyledDescriptionLeft className = "fade-in-left">
-                Check back soon :)
-                <br/>
-                <br/><br/><br/><br/><br/>
+                Check back soon!
+
+                <br/><br/><br/>
             </StyledDescriptionLeft>
             
             <br/>

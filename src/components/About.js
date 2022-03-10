@@ -1,12 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import profile from '../images/ProfilePic.jpg'
-import profile2 from '../images/ProfilePic2.JPG'
-import profile3 from '../images/ProfilePic3.PNG'
-import theweeknd from '../images/TheWeeknd.jpg'
-import theweeknd2 from '../images/TheWeeknd2.jpg'
-import theweeknd3 from '../images/TheWeeknd3.jpg'
-import theweeknd4 from '../images/TheWeeknd4.jpg'
+import profile2 from '../images/ProfilePic2.jpg'
 
 import '../fadeincenter.css'
 import '../fadeinleft.css'
@@ -16,37 +10,37 @@ import '../fadeinright.css'
 export const StyledAbout = styled.div`
     display: flex;
     justify-content: center;
-    background-image: radial-gradient(circle, #181818 25%, #13327C 100%);
+    background-image: radial-gradient(circle, #181818 50%, #13327C 100%);
     padding-left: 5%;
     padding-right: 5%;
     font-size: 150%;
     font-family: verdana;
     color: white;
-    line-height: 2.5;
+    line-height: 2;
 
 `
 
 //Styled Description
 export const StyledDescription = styled.div`
     display: flex;
-    justify-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 115%;
+    justify-content: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 100%;
     font-family: verdana;
     color: white;
-    line-height: 2.5;
+    line-height: 2;
     align-items: center;
 `
 
 //Profile Picture Layout
 export const ProfilePic = styled.div`
     display: flex;
-    justify-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
-    align-items: center;
-    float: center;
+    justify-content: right;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: right;
+    float: right;
     
 `
 //About Function
@@ -61,69 +55,49 @@ export default function About(){
             </StyledAbout>
 
             <br/><br/>
-            <ProfilePic className = "fade-in-center">
-
-                <img src = {profile} alt = "Profile 1" width = "300" height = "400" hspace = "20"/> 
-                <img src = {profile3} alt = "Profile 3" width = "400" height = "400"/>
-                <img src = {profile2} alt = "Profile 2" width = "310" height = "400" hspace = "20"/>
-                <img src = {theweeknd} alt = "The Weeknd" width = "425" height = "400" hspace = "20"/>
-                
+            <ProfilePic className = "fade-in-right">
+                <img src = {profile2} alt = "Profile 1" width = "430" height = "435" hspace = "55"/> 
             </ProfilePic>
 
-            <br/><br/>
-            <StyledDescription className = "fade-in-center">
-                My name is Saishnu and I'm 20 years old. 
-                I'm a Junior transfer student at California State University, Fresno from Kuala Lumpur, Malaysia. 
-                I'm aiming to complete my Bachelor's Degree (BSc) in the field of Computer Science in the United States by 2023. 
-                This is the first official webpage that I have made from scratch and would be constantly improving and updating it. 
-                My current interests in the field are Game Development, Web Development, and Artificial Intelligence/Machine Learning and I hope I could specialize in one of these fields down the line.
-            </StyledDescription>
-            
-            <br/><br/>
-            <StyledDescription className = "fade-in-center">
-                My passion for Game Development comes from my interest in playing video games ever since I was a child.
-                I had always wanted to create and develop a game of my own for others to enjoy playing like how I do even to this day.
-                Here are a couple of my favorite video games of all time: Call of Duty: Modern Warfare (2019), Spider-Man (2018), God of War, Rainbow Six Siege, and those are just to name a few.
-                I took up the interest in Artificial Intelligence a couple of years ago as I see it being the future like everyone else. 
-                Our world is ever-developing therefore we need to keep up with the evolution of humanity.
-                Having robots as well as automating numerous amounts of industries like production and manufacturing will help improve the overall efficiency within them.
-                Ever since I had wanted to create my own website around 2018, I had an interest in web development because it allows my creativity to flow more as compared to the backend programming that I am currently doing in college.
+            <br/>
+            <StyledDescription className = "fade-in-left">
+                My name is Saishnu and I'm currently 21 years old. I was born and raised in Kuala Lumpur, Malaysia
+                and I graduated high school in August of 2018. Currently, I'm a senior enrolled at California State 
+                University, Fresno after transferring colleges from Malaysia to the United States in Spring 2021. 
+                I'm aiming to obtain my Bachelor's Degree (BSc) by the end of 2023. During my free time, I enjoy 
+                playing video games with my friends over even a story driven game by myself. Besides that I also 
+                enjoying listening to music, mainly R and B, Hip-Hop/Rap, but I enjoy most genres nonetheless but 
+                my favorite artist I enjoy listening to most of the time would be The Weeknd. I hope that some day, 
+                I would be able to create a game of my own and publish it for everyone to enjoy which is why Game 
+                Development is one of my interests at the moment. I also enjoy web development
+                but I am still brand new to this and hope to learn more overtime. Aritifical Intelligence also peaked my interest in 
+                Computer Science as I had a friend who basically showed me how interesting and big the field of AI is, and it is still 
+                growing to this day as we keep creating and developing new forms of technology. 
             </StyledDescription>
 
-            <br/><br/>
-            <StyledDescription className = "fade-in-center">
-                Other than Computer Science, I enjoy spending my time playing video games, listening to music, and travelling during my holidays.
-                During my primary and secondary education, we were taught how to play various instruments.
-                Due to that I can play the Piano, Clarinet, and Saxophone but I wouldn't consider myself to be a professional player for either instrument.
-                When it comes to music, I enjoy listening to a number of genres. My top three genres I listen to mostly would be Hip-Hop, R&B, and Pop.
-                My favorite artist of all time is The Weeknd, also known by his real name, Abel Tesfaye, and I have been listening to him since 2016.
+            <br/>
+            <StyledDescription className = "fade-in-left">
+                Other than that, I also do enjoying spending my holidays travelling around, whether it be nationally or internationally. 
+                Most of the time I travel around the world with my family and once in a while with a couple of friends. A couple of places
+                I enjoyed visiting would be Dubai, Amsterdam, Los Angeles, and Bali. Growing up in Malaysia, a good majority of us are multilingual 
+                as our national language is Bahasa Malaysia. As for me, I grew up natively speaking English as my first language,
+                followed by Bahasa Malaysia as we were taught that in school. During my primary to early-secondary, I also learnt French and for 
+                last 3 years of my high school I learnt Italian. I also understand my mother tongue, Tamil, but can't speak it that well
+                and I also known a little bit of Mandarin as I have taken classes for that in the past. 
             </StyledDescription>
 
-            <br/><br/>
-            <StyledDescription className = "fade-in-center">
-                My first spoken language is English as that was what I grew up speaking for my whole life.
-                Moreover I can also fairly converse in Tamil and Bahasa Malaysia due to how vastly diverse my home country, Malaysia, is.
-                Throughout my education, I have also learned French, Italian as well as Mandarin throughout a big portion of my life.
-                But, I would not consider myself to be as fluent in all these languages mentioned above as compared to English.
+            <br/>
+            <StyledDescription className = "fade-in-left">
+                For my entire schooling life, I was in an international school and being in an international school, we were taught to be more well-rounded
+                people. I learnt how to play instruments like the piano, clarinet, and saxophone. We were also encouraged to join clubs and participate in 
+                sporting events held by the school. During my late secondary school, I was in the Model United Nations club and we attended our biggest conference
+                in March 2018 which was hosted in Beijing, China by Harvard University.  
             </StyledDescription>
 
-            <br/><br/>
-            <StyledDescription className = "fade-in-center">
-                Nonetheless, I hope you enjoy any forthcoming projects and updates to this website as it will be ever-evolving throughout the years. 
-                <br/><br/>
-                 Have a good one!
-                 <br/>
-                 - Saishnu
-                 <br/><br/>
+            <br/>
+            <StyledDescription className="fade-in-left">
+                That's a little about me!    
             </StyledDescription>
-
-            <ProfilePic>
-
-                <img src = {theweeknd2} alt = "The Weeknd" width = "425" height = "400" hspace = "20"/>
-                <img src = {theweeknd3} alt = "The Weeknd" width = "600" height = "400" hspace = "20"/>
-                <img src = {theweeknd4} alt = "The Weeknd" width = "420" height = "400" hspace = "20"/>
-
-            </ProfilePic>
 
             <br/><br/><br/><br/>
             

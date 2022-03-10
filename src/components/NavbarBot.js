@@ -6,7 +6,7 @@ export default function NavbarBot(){
     return(
         
         <div className = "navbar">
-            <a>© 2021 saishnu25. All rights reserved. Version 1.3.5</a>
+            <a>© 2022 saishnu25. All rights reserved. Version 1.4</a>
         </div>
 
     )

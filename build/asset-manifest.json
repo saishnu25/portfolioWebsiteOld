@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio_website/static/css/main.3d39b58d.chunk.css",
-    "main.js": "/portfolio_website/static/js/main.47c7c964.chunk.js",
-    "main.js.map": "/portfolio_website/static/js/main.47c7c964.chunk.js.map",
+    "main.js": "/portfolio_website/static/js/main.fdc78bc9.chunk.js",
+    "main.js.map": "/portfolio_website/static/js/main.fdc78bc9.chunk.js.map",
     "runtime-main.js": "/portfolio_website/static/js/runtime-main.ef9f645a.js",
     "runtime-main.js.map": "/portfolio_website/static/js/runtime-main.ef9f645a.js.map",
     "static/js/2.a48a0bf4.chunk.js": "/portfolio_website/static/js/2.a48a0bf4.chunk.js",
@@ -15,7 +15,8 @@
     "static/media/Instagram.02c06885.png": "/portfolio_website/static/media/Instagram.02c06885.png",
     "static/media/MenuSystem.502ff048.png": "/portfolio_website/static/media/MenuSystem.502ff048.png",
     "static/media/NavbarPic.fb9cd7ec.jpg": "/portfolio_website/static/media/NavbarPic.fb9cd7ec.jpg",
-    "static/media/ProfilePic.5af32925.jpg": "/portfolio_website/static/media/ProfilePic.5af32925.jpg",
+    "static/media/ProfilePic1.5340a37d.jpeg": "/portfolio_website/static/media/ProfilePic1.5340a37d.jpeg",
+    "static/media/ProfilePic2.d2e42d84.jpg": "/portfolio_website/static/media/ProfilePic2.d2e42d84.jpg",
     "static/media/SpaceInvaders.8d3431b9.png": "/portfolio_website/static/media/SpaceInvaders.8d3431b9.png",
     "static/media/Spotify.640056ea.png": "/portfolio_website/static/media/Spotify.640056ea.png",
     "static/media/Twitter.43688379.png": "/portfolio_website/static/media/Twitter.43688379.png",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.ef9f645a.js",
     "static/js/2.a48a0bf4.chunk.js",
     "static/css/main.3d39b58d.chunk.css",
-    "static/js/main.47c7c964.chunk.js"
+    "static/js/main.fdc78bc9.chunk.js"
   ]
 }

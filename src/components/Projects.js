@@ -13,7 +13,7 @@ import '../fadeinright.css'
 export const StyledProject = styled.div`
     display: flex;
     justify-content: center;
-    background-image: radial-gradient(circle, #181818 25%, #13327C 100%);
+    background-image: radial-gradient(circle, #181818 50%, #13327C 100%);
     padding-left: 5%;
     padding-right: 5%;
     font-size: 150%;

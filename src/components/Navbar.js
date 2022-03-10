@@ -55,11 +55,11 @@ export default function Navbar() {
             <StyledDiv numberLinks = {7} className = "fade-in-center">
                 <img alt ="Navbar Picture" src = {navbarpic} width = "30" height = "30"></img>
                 &nbsp; &nbsp;
-                <h4>saishnu25</h4>        
+                <h4>
+                <a style = {{textDecoration: 'none' }} href = "https://saishnu25.github.io/portfolio_website/"> saishnu25</a>
+                </h4>     
         
                 <ul> 
-                        {/*{ButtonLinks.map((item) => <NavbarButton  style = {{textTransform: 'none'}} size = "medium">{item.name}</NavbarButton>)}*/}
-
                         <a href = "https://github.com/saishnu25">
                             <img alt = "Github" src = {github} width = "20" height = "20"></img></a>
         
@@ -77,11 +77,10 @@ export default function Navbar() {
 
                         <a href= "https://www.youtube.com/user/GhostProtocol2503">
                             <img alt = "YouTube" src = {youtube} width = "20" height = "20"></img></a>
-                
                 </ul>
 
             </StyledDiv>
 
-        </div>
+    </div>
   );
 }
